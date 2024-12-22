@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
+        <div className="flex items-center justify-center min-h-screen bg-[#ebf5fb]">
           {children}
         </div>
       </body>
